@@ -1,10 +1,16 @@
 import pytest
 from madlib_cli.madlib import read_template, parse_template, merge
 
-@pytest.mark.skip
+# @pytest.mark.skip
 def test_read_template_returns_stripped_string():
     actual = read_template("assets/dark_and_stormy_night.txt")
     expected = "It was a {Adjective} and {Adjective} {Noun}."
+    assert actual == expected
+
+# @pytest.mark.skip
+def test_read_template_returns_stripped_string_multi():
+    actual = read_template("assets/dark_and_stormy_night_multi.txt")
+    expected = "It was a {Adjective} and {Adjective} {Noun}.\nIt was a {Adjective} and {Adjective} {Noun}."
     assert actual == expected
 
 @pytest.mark.skip
