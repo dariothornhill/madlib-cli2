@@ -15,6 +15,7 @@ python -m madlib_cli/madlib.py
 ```
 
 ## Changelog
+- Setup basic tests - https://github.com/dariothornhill/madlib-cli2/pull/3
 - Added github actions - https://github.com/dariothornhill/madlib-cli2/pull/2
 - First commit - basic project files
 
