@@ -19,7 +19,22 @@ python -m madlib_cli/madlib.py
 - First commit - basic project files
 
 ## TODO Checklist
-- [ ] Add unit tests
-- [ ] Add madlib code
-- [ ] Test everything
+- [x] Add unit test setup
+- [x] Add github actions
+- [ ] Welcome message
+- [ ] Madlib template file
+- [ ] Add small test template
+- [ ] Tokenize template
+- [ ] Prompt user for words
+- [ ] Populate template with user responses
+- [ ] Print final madlib to user
+- [ ] Write final madlib to file (commit this file)
+- [ ] Write a test for read_template which will call the read_template function with the path to our test template and check that the result are a stripped version of the its contents.
+- [ ] write the read_template function to pass above test
+- [ ] Write a test for the parse_template function which will call it with an example template string and check that returns the string with the language parts removed and a list of the language parts (list, tuple, dict)
+- [ ] Write the parse_template function to pas the above tests
+- [ ] Write a test for the merge function that calls it with a template and a list of strings representing language parts and checks that the returned string inserts those languages parts into the template.
+- [ ] Write the merge function
 
+Stretch
+- [ ] Test that final madlib written correctly to this
