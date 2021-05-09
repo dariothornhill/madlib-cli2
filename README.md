@@ -15,10 +15,11 @@ python -m madlib_cli/madlib.py
 ```
 
 ## Changelog
-
+- Added github actions - https://github.com/dariothornhill/madlib-cli2/pull/2
 - First commit - basic project files
 
 ## TODO Checklist
 - [ ] Add unit tests
 - [ ] Add madlib code
 - [ ] Test everything
+
